@@ -2,15 +2,15 @@
 	"name": "@heliosgraphics/components",
 	"version": "1.0.0",
 	"private": false,
-  "type": "module",
+	"type": "module",
 	"author": "Chris Puska <03b8@helios.graphics>",
-  "scripts": {
-    "pub:components": "pnpm publish --acess public",
-    "test": "NODE_ENV=test vitest run",
+	"scripts": {
+		"pub:components": "pnpm publish --acess public",
+		"test": "NODE_ENV=test vitest run",
 		"test:u": "NODE_ENV=test vitest run --update",
 		"test:watch": "NODE_ENV=test vitest",
 		"test:coverage": "NODE_ENV=test vitest run --coverage"
-  },
+	},
 	"dependencies": {
 		"@heliosgraphics/icons": "latest",
 		"@heliosgraphics/library": "4.0.0-alpha-5",
@@ -28,6 +28,10 @@
 	},
 	"devDependencies": {
 		"@testing-library/react": "^14.1.2",
-    "vitest": "^1.1.0"
+		"@vitejs/plugin-react": "^4.2.1",
+		"@vitest/coverage-v8": "^1.1.0",
+		"jsdom": "^23.0.1",
+		"vite": "^5.0.10",
+		"vitest": "^1.1.0"
 	}
 }
