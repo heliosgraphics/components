@@ -1,0 +1,33 @@
+{
+	"name": "@heliosgraphics/components",
+	"version": "1.0.0",
+	"private": false,
+  "type": "module",
+	"author": "Chris Puska <03b8@helios.graphics>",
+  "scripts": {
+    "pub:components": "pnpm publish --acess public",
+    "test": "NODE_ENV=test vitest run",
+		"test:u": "NODE_ENV=test vitest run --update",
+		"test:watch": "NODE_ENV=test vitest",
+		"test:coverage": "NODE_ENV=test vitest run --coverage"
+  },
+	"dependencies": {
+		"@heliosgraphics/icons": "latest",
+		"@heliosgraphics/library": "4.0.0-alpha-5",
+		"@heliosgraphics/utils": "4.0.0-alpha-5",
+		"@react-spring/web": "^9.7.3",
+		"@sindresorhus/class-names": "^2.0.0",
+		"@use-gesture/react": "^10.3.0",
+		"dayjs": "^1.11.10",
+		"highlight.js": "^11.9.0",
+		"markdown-it": "^14.0.0",
+		"next": "^14.0.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-plock": "^3.0.2"
+	},
+	"devDependencies": {
+		"@testing-library/react": "^14.1.2",
+    "vitest": "^1.1.0"
+	}
+}
