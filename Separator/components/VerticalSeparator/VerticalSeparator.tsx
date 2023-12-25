@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "@sindresorhus/class-names";
 import HRMarkup from "../HRMarkup";
-import type { SeparatorProps } from "../Separator/Separator.types";
+import type { SeparatorProps } from "../../../Separator/Separator.types";
 import styles from "./VerticalSeparator.module.css";
 
 const VerticalSeparator: React.FC<SeparatorProps> = ({ isLight, height }) => {

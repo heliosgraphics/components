@@ -1,5 +1,5 @@
 import React from "react";
-import Separator from "../Separator";
+import Separator from "../../../Separator";
 import styles from "./LayoutLeftItem.module.css";
 import type { LayoutSeparatorProps } from "./LayoutSeparator.types";
 

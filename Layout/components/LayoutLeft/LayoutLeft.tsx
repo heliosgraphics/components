@@ -2,8 +2,8 @@
 
 import React, { useContext } from "react";
 import styles from "./LayoutLeft.module.css";
-import Button from "../Button";
-import ButtonGroup from "../ButtonGroup";
+import Button from "../../../Button";
+import ButtonGroup from "../../../ButtonGroup";
 import classNames from "@sindresorhus/class-names";
 import { LayoutContext } from "../../contexts/LayoutProvider";
 import type { LayoutLeftProps } from "./LayoutLeft.types";

@@ -1,6 +1,6 @@
 {
 	"name": "@heliosgraphics/components",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"private": false,
 	"type": "module",
 	"author": "Chris Puska <03b8@helios.graphics>",
@@ -9,7 +9,8 @@
 		"test": "NODE_ENV=test vitest run",
 		"test:u": "NODE_ENV=test vitest run --update",
 		"test:watch": "NODE_ENV=test vitest",
-		"test:coverage": "NODE_ENV=test vitest run --coverage"
+		"test:coverage": "NODE_ENV=test vitest run --coverage",
+    "ts:watch": "tsc --noEmit --incremental --watch"
 	},
 	"dependencies": {
 		"@heliosgraphics/icons": "latest",
@@ -27,10 +28,14 @@
 		"react-plock": "^3.0.2"
 	},
 	"devDependencies": {
+		"@types/node": "^20.10.5",
+		"@types/react": "^18.2.45",
+		"@types/react-dom": "^18.2.18",
 		"@testing-library/react": "^14.1.2",
 		"@vitejs/plugin-react": "^4.2.1",
 		"@vitest/coverage-v8": "^1.1.0",
 		"jsdom": "^23.0.1",
+    "typescript": "^5.3.3",
 		"vite": "^5.0.10",
 		"vitest": "^1.1.0"
 	}

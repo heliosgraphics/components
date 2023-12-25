@@ -4,7 +4,7 @@ import React from "react";
 import styles from "./LayoutLeftItem.module.css";
 import classNames from "@sindresorhus/class-names";
 import Link from "next/link";
-import Icon from "../Icon";
+import Icon from "../../../Icon";
 import { usePathname } from "next/navigation";
 import type { LayoutLeftItemProps } from "./LayoutLeftItem.types";
 
